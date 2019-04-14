@@ -11,33 +11,31 @@
     </head>
     <body>
         <nav class="navbar sticky-top navbar-expand-lg navbar-i bg-secondary" style="padding: 0px; width:100%; ">
-            <a class="navbar-brand" href="index.html"> <img id="logo" src="img/logo.png" alt="logo">Yordii Serwis </a>
+            <a class="navbar-brand" href="index.html"style="font: size 26px; padding-left: 0px; margin-right: 0px;"> <img id="logo" src="img/logo.png" alt="logo" style="padding-right: 0px;"><span style="">Yordii Serwis </span></a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase bg-dark text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                            <li class="nav-item mx-0 mx-lg-1">
-                              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Start</a>
-                                    </li>
-                            <li class="nav-item mx-0 mx-lg-1">
-                                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#galeria">Galeria</a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                      <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Start</a>
                             </li>
-                            <li class="nav-item mx-0 mx-lg-1">
-                                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="about.html">O Sewisie</a>
-                            </li>
-                            <li class="nav-item mx-0 mx-lg-1">
-                                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cennik.html">Cennik</a>
-                            </li>                   
-                             <li class="nav-item mx-0 mx-lg-1">
-                                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="kontakt.html">Kontakt</a>
-                            </li>
-                        </ul>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#galeria">Galeria</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="about.html">O Sewisie</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cennik.html">Cennik</a>
+                    </li>                   
+                     <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
             </div>
             </div>
         </nav>
-
-        
 
         <section id="home">
             <header class="masthead bg-daner text-white text-center">
@@ -55,14 +53,14 @@
                         <div id="send_form_status"></div>
                         <form method="post">
                              <div><label for="name">Imię i nazwisko</label></div>
-                             <div><input type="text" name="firstname" id="name"class="formField" /></div>
-                             <div><input type="text" name="lastname" id="name" class="formField" /></div>
-                             <div><label for="phone">Numer telefonu</label></div>
-                             <div><input type="tel" name="phone" pattern="[0-9]{9}" required id="phone" class="formField" /></div>
+                             <div><input type="text" name="firstname" id="name"class="formField" required id="phone" placeholder="Imię" /></div>
+                             <div><input type="text" name="lastname" id="name" class="formField" required id="phone" placeholder="Nazwisko"/></div>
+                             <div><label for="phone">Numer telefonu (np. 123456789)</label></div>
+                             <div><input type="tel" name="phone" pattern="[0-9]{9}" required id="phone" class="formField" placeholder="Numer telefonu" /></div>
                              <div><label for="email">Adres email</label></div>
-                             <div><input type="text" name="email" id="email" class="formField" /></div>
+                             <div><input type="text" name="email" id="email" class="formField" required id="phone" placeholder= "Email" /></div>
                              <div><label for="message">Treść wiadomości</label></div>
-                             <div><textarea name="message" id="message" class="formField"></textarea></div> 
+                             <div><textarea name="message" id="message" class="formField" required id="phone" placeholder="Wiadomość"></textarea></div> 
                              <div ><button id="sendBtn"style= "margin-bottom: 8px;">Wyślij</button></div>
                         </form>
                      </div>
