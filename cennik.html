@@ -8,147 +8,148 @@
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fontello/css/fontello.css">
     </head>
     <body>
-            <nav class="navbar sticky-top navbar-expand-lg navbar-i bg-secondary" style="padding: 0px; width:100%; ">
-            <a class="navbar-brand" href="index.html"style="font: size 26px; padding-left: 0px; margin-right: 0px;"> <img id="logo" src="img/logo.png" alt="logo" style="padding-right: 0px;"><span style="">Yordii Serwis </span></a>
-            <button class="navbar-toggler navbar-toggler-right text-uppercase bg-dark text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1">
-                      <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Start</a>
-                            </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#galeria">Galeria</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="about.html">O Sewisie</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cennik.html">Cennik</a>
-                    </li>                   
-                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="kontakt.html">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-        </nav>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-i bg-secondary p-0 w-100">
+        <a class="navbar-brand" href="index.html"> <img id="logo" src="img/logo.png" alt="logo"><span>Yordii Serwis<i class="demo-icon icon-bicycle"></i> </span></a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-dark text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Start</a>
+                        </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="about.html">O Sewisie</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cennik.html">Cennik</a>
+                </li>                   
+                 <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
         <section id="home">
-            <header class="masthead bg-daner ">
+            <header class="masthead bg-daner text-white text-center">
                 <div class="container">
-                        <a href="index.html"> <div id="banner"> 
-                                <object type="application/x-shockwave-flash" width="100%" height="150px"> 
+                        <div id="banner"> 
+                                <object type="application/x-shockwave-flash" width="100%" height="auto"> 
                                     <param name="movie" value="serwis.swf"></param> 
-                                    <param name="wmode" value="opaque"></param> 
+                                    <param name="wmode" value="transparent"></param> 
                                 </object>
-                            </div> </a>
+                            </div> 
                         </br>
-                        <h2>Cennik</h2>
+                        <h2>CENNIK</h2>
                     </br>
                     <div class="d-flex justify-content-center" id=tabela>
                         <table class="table table-hover">
                             <tbody>
                                 <tr>
-                                    <td style="padding-left: 17%;">Centrowanie koła</td>
-                                    <td style="margin-right: 25%;">40zł</td>
+                                    <td class="table-left" !important>Centrowanie koła</td>
+                                    <td class="table-right">40zł</td>
                                 </tr>
                                 <tr>
-                                    <td  style="padding-left: 17%;">Przeplecenie koła</td>
-                                    <td style="margin-right: 25%;">60zł</td>
+                                    <td class="table-left">Przeplecenie koła</td>
+                                    <td class="table-right">60zł</td>
                                 </tr>
                                 <tr>
-                                    <td  style="padding-left: 17%;">Naprawa/regulacja piasty</td>
-                                    <td style="margin-right: 25%;">25zł</td>
+                                    <td class="table-left">Naprawa/regulacja piasty</td>
+                                    <td class="table-right">25zł</td>
                                 </tr>
                                 <tr>
-                                    <td  style="padding-left: 17%;">Wymiana dętki lub opony</td>
-                                    <td style="margin-right: 25%;">20zł</td>
+                                    <td  class="table-left">Wymiana dętki lub opony</td>
+                                    <td class="table-right">20zł</td>
                                 </tr>
                                 <tr>
-                                    <td  style="padding-left: 17%;">Wymiana kasety lub wolnobiegu</td>
-                                    <td style="margin-right: 25%;">15zł</td>
+                                    <td class="table-left">Wymiana kasety lub wolnobiegu</td>
+                                    <td class="table-right">15zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Wymiana łańcucha</td>
-                                    <td style="margin-right: 25%;">15zł</td>
+                                    <td class="table-left">Wymiana łańcucha</td>
+                                    <td class="table-right">15zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Montaż wkładu suportu</td>
-                                    <td style="margin-right: 25%;">15zł</td>
+                                    <td class="table-left">Montaż wkładu suportu</td>
+                                    <td class="table-right">15zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Wymiana wkładu suportu</td>
-                                    <td style="margin-right: 25%;">35zł</td>
+                                    <td class="table-left">Wymiana wkładu suportu</td>
+                                    <td class="table-right">35zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Montaż lub wymiana korb</td>
-                                    <td style="margin-right: 25%;">25zł</td>
+                                    <td class="table-left">Montaż lub wymiana korb</td>
+                                    <td class="table-right">25zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Gwintowanie lub frezowanie suportu</td>
-                                    <td style="margin-right: 25%;">30zł</td>
+                                    <td class="table-left">Gwintowanie lub frezowanie suportu</td>
+                                    <td class="table-right">30zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Gwintowanie korby</td>
-                                    <td style="margin-right: 25%;">15zł</td>
+                                    <td class="table-left">Gwintowanie korby</td>
+                                    <td class="table-right">15zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Wymiana klocków hamulcowych</td>
+                                    <td class="table-left">Wymiana klocków hamulcowych</td>
                                     <td>15zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Regulacja hamulca</td>
+                                    <td class="table-left">Regulacja hamulca</td>
                                     <td>15zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Odpowietrzanie hamulca tarczowego</td>
+                                    <td class="table-left">Odpowietrzanie hamulca tarczowego</td>
                                     <td>50zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Montaż tarczy hamulcowej</td>
+                                    <td class="table-left">Montaż tarczy hamulcowej</td>
                                     <td>10zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Montaż hamulca tarczowego</td>
+                                    <td class="table-left">Montaż hamulca tarczowego</td>
                                     <td>40zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Montaż hamulca szczękowego</td>
+                                    <td class="table-left">Montaż hamulca szczękowego</td>
                                     <td>15zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Montaż przerzutki przód</td>
+                                    <td class="table-left">Montaż przerzutki przód</td>
                                     <td>20zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Montaż przerzutki tył</td>
+                                    <td class="table-left">Montaż przerzutki tył</td>
                                     <td>20zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Regulacja przerzutki przód lub tył</td>
+                                    <td class="table-left">Regulacja przerzutki przód lub tył</td>
                                     <td>20zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Wymiana/prostowanie haka</td>
+                                    <td class="table-left">Wymiana/prostowanie haka</td>
                                     <td>15zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Wymiana linki/pancerza z regulacją elementu</td>
+                                    <td class="table-left">Wymiana linki/pancerza z regulacją elementu</td>
                                     <td>20zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Czyszczenie i smarowanie łańcucha</td>
+                                    <td class="table-left">Czyszczenie i smarowanie łańcucha</td>
                                     <td>20zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Pompowanie koła</td>
+                                    <td class="table-left">Pompowanie koła</td>
                                     <td>1zł</td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-left: 17%;">Pompowanie amortyzatora</td>
+                                    <td class="table-left">Pompowanie amortyzatora</td>
                                     <td>2zł</td>
                                 </tr>
                             </tbody>

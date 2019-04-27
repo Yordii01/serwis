@@ -57,19 +57,25 @@ h3{
 }
 #banner{
 	width: 100%;
-	text-align: center;
-
+	position: relative;
+	height: auto;
 }
+#nochange{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
 .navbar-brand{
-	padding-left: 30px;
+	margin-right: 0px;
+	padding-left: 0px;
 	color:red;
-	font-size: 30px;
-	
+	font-size: 26px;
 }
 #logo{
-	width: 110px;
-	height: 70px;
-	padding-right: 20px;
+	width: 70px;
+	height: 55px;
+	padding-right: 0px;
 }
 #home{
 	width: 100%;
@@ -78,57 +84,82 @@ h3{
 #wpisy{
 	font-size: 50px;
 	font-weight: bold;
-	color: black;
+	color: red;
 }
 
-.formField{font: inherit; border: 1px solid #ccc; border-radius: 3px; margin: 3px 0 10px 0; padding: 3px 0}
-textarea.formField{width: 50%; height: 150px}
-#sendBtn{cursor:pointer;background: #ccc; background: linear-gradient(#ddd 0, #eee 100%); border: 1px solid #ccc; line-height: 32px; font-size: 14px;padding: 0 25px; border-radius: 3px}
-#send_form_status{border: 1px dashed #ccc;display: none; padding: 0 10px; margin: 10px 0}
-.status_ok{color: #060}
-.status_err{color: #F00};
-
+.formField{
+	font: inherit;
+	border: 1px solid #ccc; 
+	border-radius: 3px; 
+	margin: 3px 0 10px 0; 
+	padding: 3px 0
+}
+textarea.formField{
+	width: 50%;
+	 height: 150px
+}
+#sendBtn{
+	cursor:pointer;
+	background: #ccc; 
+	background: linear-gradient(#ddd 0, #eee 100%); 
+	border: 1px solid #ccc; 
+	line-height: 32px; 
+	font-size: 14px;
+	padding: 0 25px; 
+	border-radius: 3px
+}
 #send{
     margin-bottom: 8px;
 }
 #tabela{
-	margin-left: 200px;
-	margin-right: 200px;
+	width: 50%;
+	margin-left: 25%;
 }
+div {
+	clear: left;
+  }
 .tg  {
 	border-collapse:collapse;
 	border-spacing:0;
 }
-.tg td{
-	font-family:Arial, sans-serif;
-	font-size:20px;
-	padding:10px 5px;
-	border-style:solid;
-	border-width:1px;
-	overflow:hidden;
-	border-color:black;
-}
-.tg .tg-a{
-	padding-left: 10px;
-	color:#cb0000;
-	border-color:#fd6864;
-	text-align:left;
-	vertical-align:top;
-	width: 30%;
-}
-.tg .tg-b{
-		color:#cb0000;
-		border-color:#fd6864;
-		text-align:left;
-		vertical-align:top;
-		width: 10%;
-}
-.tg tr:hover{
-	color:red;
-	opacity: 0.8;
-	background-color:#2E2E2E;
-}
 .text{
-	color:rgb(0, 0, 0);
-	
+	color:rgb(0, 0, 0);	
+	float: left;
+	margin-bottom: 39px;
 }
+.background-color{
+	opacity: 0;
+}
+.table-left{
+	padding-left: 17% !important;
+}
+.table-right{
+	margin-right: 25% !important;
+}
+.posts{
+	color:rgb(0, 0, 0);
+	float: left;
+}
+.zdj{
+	float: left;
+	width: 250px;
+	height:300px;
+	display: block;
+}
+.galery-img-holder {
+    overflow: hidden;
+}
+
+.galery-img-holder img {
+    transition: transform .5s ease-in-out;
+    padding: 0 !important;
+}
+  
+.galery-img-holder:hover img {
+    transform: scale(1.5) rotate(15deg);
+}
+.photo {
+	width: 200px;
+	height: 151.33px;
+}
+
