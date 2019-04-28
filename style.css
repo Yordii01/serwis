@@ -46,6 +46,9 @@ body{
 		background-position: 0% 50%;
 	}
 }
+.font{
+	font-family: 'Schoolbell', cursive;
+}
 h1{
     text-align: center;
 }
@@ -86,7 +89,14 @@ h3{
 	font-weight: bold;
 	color: red;
 }
-
+.stopka{
+		margin-top: 33px !important; 
+		position: relative;
+		bottom: 0;
+		width: 100%;
+		padding-bottom: 15px !important;
+		padding-top: 15px !important;
+}
 .formField{
 	font: inherit;
 	border: 1px solid #ccc; 
@@ -101,15 +111,11 @@ textarea.formField{
 #sendBtn{
 	cursor:pointer;
 	background: #ccc; 
-	background: linear-gradient(#ddd 0, #eee 100%); 
 	border: 1px solid #ccc; 
 	line-height: 32px; 
 	font-size: 14px;
 	padding: 0 25px; 
 	border-radius: 3px
-}
-#send{
-    margin-bottom: 8px;
 }
 #tabela{
 	width: 50%;
@@ -125,7 +131,7 @@ div {
 .text{
 	color:rgb(0, 0, 0);	
 	float: left;
-	margin-bottom: 39px;
+	margin-bottom: 72px;
 }
 .background-color{
 	opacity: 0;
@@ -162,4 +168,3 @@ div {
 	width: 200px;
 	height: 151.33px;
 }
-
