@@ -45,8 +45,11 @@ body{
 		background-position: 0% 50%;
 	}
 }
-.font{
-	font-family: 'Schoolbell', cursive;
+@font-face{
+	font-family: 'Schoolbell-Regular';
+	src:
+	url("font/Schoolbell-Regular.ttf")
+	format('opentype');
 }
 .navbar{
 	background-color: #4f4f4f !important;
@@ -81,6 +84,9 @@ h3{
 	width: 70px;
 	height: 55px;
 	padding-right: 0px;
+}
+.font{
+	font-family: Schoolbell-Regular;
 }
 #home{
 	width: 100%;
@@ -175,4 +181,9 @@ div {
 .photo {
 	width: 200px;
 	height: 151.33px;
+}
+.wpis{
+	color:rgb(0, 0, 0);	
+	float: left;
+	margin-bottom: 20px;
 }
