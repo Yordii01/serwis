@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #fff;
 	color: #fff;
 	
 	background: linear-gradient(-45deg, rgb(177, 177, 177), rgb(177, 177, 177),rgb(70, 70, 70), rgb(70, 70, 70));
@@ -48,6 +47,9 @@ body{
 }
 .font{
 	font-family: 'Schoolbell', cursive;
+}
+.navbar{
+	background-color: #4f4f4f !important;
 }
 h1{
     text-align: center;
@@ -120,6 +122,12 @@ textarea.formField{
 #tabela{
 	width: 50%;
 	margin-left: 25%;
+}
+.dane{
+	font-size: 23px;
+}
+.dane:hover{
+	color: red;
 }
 div {
 	clear: left;
